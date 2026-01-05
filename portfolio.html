@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио — Мария Балышева</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Arial, sans-serif;
+            background-color: #f6f7f4;
+            color: #2f3e46;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        p {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #52796f;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+        .item {
+            background: #ffffff;
+            border-radius: 14px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+            padding: 15px;
+            text-align: center;
+        }
+        .item img {
+            width: 100%;
+            border-radius: 10px;
+        }
+		.item h3 {
+			font-size: 16px;
+			margin: 0 0 10px;
+			color: #2f3e46;
+		}
+        .item a {
+            display: block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: #52796f;
+            font-weight: 500;
+        }
+        .back {
+            display: block;
+            margin: 40px auto 0;
+            width: fit-content;
+            padding: 12px 24px;
+            background-color: #84a98c;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+        .back:hover {
+            background-color: #6b9080;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Портфолио</h1>
+    <p>Грамоты, сертификаты и подтверждение профессионального опыта</p>
+
+    <div class="grid">
+        <div class="item">
+			<h3>Сертификаты</h3>
+            <img src="portfolio/praktika formirovania.jpg" alt="Сертификат">
+            <a href="portfolio/certificate.pdf" target="_blank">Открыть</a>
+			<img src="portfolio/fioko pismo.jpg" alt="Сертификат">
+            <a href="portfolio/Организатор ВПР 2023.pdf" target="_blank">Открыть</a>
+        </div>
+		
+		
+
+        <div class="item">
+            <img src="portfolio/dance scl.jpg" alt="Грамота">
+            <a href="portfolio/dance scl.jpg" target="_blank">Открыть</a>
+        </div>
+
+        <div class="item">
+			<h3>Презентация на урок 'Новый год'</h3>
+            <img src="portfolio/преза_нг.jpg" alt="Презентация на урок 'Новый год'">
+            <a href="portfolio/нг.pptx" target="_blank">Открыть</a>
+        </div>
+    </div>
+
+    <a class="back" href="index.html">На главную</a>
+</div>
+
+</body>
+</html>
